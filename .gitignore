@@ -1,0 +1,4 @@
+ffmpeg.exe
+/dist/
+/build/
+*.spec

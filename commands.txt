@@ -1,0 +1,9 @@
+pyinstaller --onefile --noconsole ^
+  --icon=assets/univedia.ico ^
+  --add-data "assets/univedia.ico;assets" ^
+  --add-data "assets/clapperboard.png;assets" ^
+  --add-data "assets/equalizer.png;assets" ^
+  --add-data "assets/headphone.png;assets" ^
+  --add-data "assets/image.png;assets" ^
+  --add-binary "D:\Codes\Personal\UnivediaDL\ffmpeg.exe;." ^
+  main.py
